@@ -1,0 +1,6 @@
+{
+  "name": "Smart Parking Management System",
+  "description": "Smart Parking Management System featuring real-time parking space monitoring, automated slot allocation, waiting queue management, and automated fee calculation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

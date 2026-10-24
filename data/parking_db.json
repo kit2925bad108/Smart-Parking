@@ -1,0 +1,116 @@
+{
+  "availableSlots": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "parkedVehicles": {
+    "TN38AB1234": {
+      "id": 1,
+      "vehicleNumber": "TN38AB1234",
+      "vehicleType": "Car",
+      "ownerName": "Muthukrishnan",
+      "slotNumber": "P01",
+      "entryTime": "2026-09-29T12:01:38.274Z",
+      "fee": 0,
+      "status": "PARKED"
+    },
+    "TN40CD5678": {
+      "id": 2,
+      "vehicleNumber": "TN40CD5678",
+      "vehicleType": "SUV",
+      "ownerName": "Arun Kumar",
+      "slotNumber": "P02",
+      "entryTime": "2026-09-29T13:19:38.274Z",
+      "fee": 0,
+      "status": "PARKED"
+    },
+    "KA05MN4321": {
+      "id": 3,
+      "vehicleNumber": "KA05MN4321",
+      "vehicleType": "Car",
+      "ownerName": "Priya Sharma",
+      "slotNumber": "P03",
+      "entryTime": "2026-09-29T13:49:38.274Z",
+      "fee": 0,
+      "status": "PARKED"
+    },
+    "MH02XY8899": {
+      "id": 4,
+      "vehicleNumber": "MH02XY8899",
+      "vehicleType": "Bike",
+      "ownerName": "Rajesh Patil",
+      "slotNumber": "P04",
+      "entryTime": "2026-09-29T10:43:38.274Z",
+      "fee": 0,
+      "status": "PARKED"
+    },
+    "DL01AK9900": {
+      "id": 5,
+      "vehicleNumber": "DL01AK9900",
+      "vehicleType": "Electric Car",
+      "ownerName": "Sneha Verma",
+      "slotNumber": "P05",
+      "entryTime": "2026-09-29T14:07:38.274Z",
+      "fee": 0,
+      "status": "PARKED"
+    }
+  },
+  "waitingQueue": [],
+  "parkingHistory": [
+    {
+      "id": 101,
+      "vehicleNumber": "TN09PQ3456",
+      "vehicleType": "Car",
+      "slotNumber": "P08",
+      "entryTime": "2026-09-29T10:01:38.274Z",
+      "exitTime": "2026-09-29T13:01:38.274Z",
+      "durationHours": 3,
+      "fee": 70
+    },
+    {
+      "id": 102,
+      "vehicleNumber": "KA01BC7788",
+      "vehicleType": "SUV",
+      "slotNumber": "P12",
+      "entryTime": "2026-09-29T11:43:38.274Z",
+      "exitTime": "2026-09-29T13:43:38.274Z",
+      "durationHours": 2,
+      "fee": 50
+    },
+    {
+      "id": 103,
+      "vehicleNumber": "TN37KL1122",
+      "vehicleType": "Bike",
+      "slotNumber": "P02",
+      "entryTime": "2026-09-29T13:19:38.274Z",
+      "exitTime": "2026-09-29T14:19:38.274Z",
+      "durationHours": 1,
+      "fee": 30
+    }
+  ],
+  "nextId": 104,
+  "adminUser": {
+    "username": "admin",
+    "passwordHash": "admin123",
+    "name": "Muthukrishnan (Admin)",
+    "role": "ADMIN",
+    "lastLogin": "2026-10-23T09:00:07.491Z"
+  },
+  "tariffSettings": {
+    "baseHourFee": 30,
+    "additionalHourFee": 20
+  }
+}
